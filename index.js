@@ -32,12 +32,12 @@ const HTML1 = `<!DOCTYPE html>
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <link rel="stylesheet" href="assets/style/style1.css" />
-   <title>Work Day Scheduler</title>
+   <title>Garden Calendar</title>
   </head>
 <body>
 <header">
-<h1">Work Day Scheduler</h1>
-<p>A simple calendar app for scheduling your work day</p>
+<h1">Garden Calendar</h1>
+<p>A simple calendar app to stay on top of your gardening.</p>
 <p id="currentDay">${todayIs}</p>
 <p id="currentTime">${timeNow}</p>
 </header>
