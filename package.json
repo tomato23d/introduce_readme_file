@@ -1,0 +1,16 @@
+{
+  "name": "test_repository1",
+  "version": "1.0.0",
+  "description": "tests various",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "inquirer": "^8.2.4"
+  }
+}
