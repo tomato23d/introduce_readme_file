@@ -1,28 +1,28 @@
 # Application Title
 
-Gardener Calendar.
+G.
 
 ## Application Description
 
-Currently the application provides providing gardening planing.
+Currently the application provides G.
 
 ## Installation
 
-The application is (intended to be) available via url.
+The application is (intended to be) available G.
 
 ## Usage
 
-The application is intended for to build green spirits around us. 
+The application is intended for G. 
 
 
 ## License
-githublicence
+GitHubPublicLicence
 
 ## Future
-add the search for plants libraries
+G
 
 ## How to contribute
-contribute
+g
 
 ## Test program
-if confirmed yes
+Consider if the test program is prepared true

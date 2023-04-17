@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 
 const fs = require('fs');
 
-const fileContent = ({title, description, future, access, usage, licence, contributions, tests})=>
+const fileContent = ({title, description, future, access, usage, licence, contributions, ifTested})=>
 
 `# Application Title
 
@@ -31,7 +31,7 @@ ${future}
 ${contributions}
 
 ## Test program
-if confirmed ${tests}`;
+Consider if the test program is prepared? ${ifTested}`;
 
 const questions = [
     {
@@ -57,12 +57,13 @@ const questions = [
       {
         type: 'input',
         name: 'usage',
-        message: 'The application is intended for',
+        message: 'The application is intended ',
       },
       {
-        type: 'input',
+        type: 'list',
         name: 'licence',
         message: 'The licencing of further development is available under ',
+        choices: ['GitHubPublicLicence', 'GitHubPrivateLicence'],
       },
       {
         type: 'input',
@@ -70,9 +71,10 @@ const questions = [
         message: 'Contributors are invited to ',
       },
       {
-        type: 'input',
-        name: 'tests',
-        message: 'Please confirm the test program is developed',
+        type: 'confirm',
+        name: 'ifTested',
+        message: 'Please confirm if the test program is developed',
+        default: false,
       },
     ];
 
